@@ -1,0 +1,141 @@
+# Finance Data API
+
+API REST desenvolvida em **C# com ASP.NET Core** que fornece dados financeiros públicos, incluindo **taxas de câmbio e cotações de ações**.
+
+Este projeto foi desenvolvido com o objetivo de **praticar conceitos de desenvolvimento backend**, incluindo:
+
+* Arquitetura de APIs REST
+* Programação Orientada a Objetos (POO)
+* Consumo de APIs externas
+* Injeção de Dependência
+* Organização de projetos em camadas
+* Boas práticas de desenvolvimento em C#
+
+---
+
+# Tecnologias utilizadas
+
+* C#
+* ASP.NET Core Web API
+* HttpClient
+* Swagger / OpenAPI
+* Visual Studio
+* Git
+
+---
+
+# APIs externas utilizadas
+
+### Finnhub
+
+Utilizada para obter dados de mercado financeiro como cotações de ações.
+
+### Exchange Rate API
+
+Utilizada para obter taxas de câmbio entre moedas.
+
+---
+
+# Estrutura do projeto
+
+FinanceDataApi
+│
+├── Controllers
+│   ├── CurrencyController.cs
+│   └── StocksController.cs
+│
+├── Services
+│   ├── CurrencyService.cs
+│   └── StockService.cs
+│
+├── Models
+│   ├── CurrencyRate.cs
+│   └── StockQuote.cs
+│
+├── DTOs
+│
+├── Program.cs
+
+---
+
+# Endpoints disponíveis
+
+## Obter taxa de câmbio
+
+GET /api/currency/{pair}
+
+Exemplo:
+
+/api/currency/USD-BRL
+
+Resposta:
+
+{
+"from": "USD",
+"to": "BRL",
+"rate": 5.15,
+"timestamp": "2026-03-11T21:35:24"
+}
+
+---
+
+## Obter cotação de ação
+
+GET /api/stocks/{symbol}
+
+Exemplo:
+
+/api/stocks/AAPL
+
+Resposta:
+
+{
+"symbol": "AAPL",
+"price": 189.12,
+"timestamp": "2026-03-11T21:40:00"
+}
+
+---
+
+# Como executar o projeto
+
+1. Clone o repositório
+
+git clone https://github.com/seu-usuario/finance-data-api.git
+
+2. Abra o projeto no Visual Studio
+
+3. Configure sua chave de API no arquivo de configuração
+
+{
+"Finnhub": {
+"ApiKey": "YOUR_API_KEY"
+}
+}
+
+4. Execute o projeto
+
+---
+
+# Documentação da API
+
+A documentação interativa pode ser acessada através do **Swagger**:
+
+/swagger
+
+---
+
+# Objetivo do projeto
+
+Este projeto foi desenvolvido como parte do meu **portfólio de desenvolvimento backend**, com foco em:
+
+* Construção de APIs REST
+* Consumo de serviços externos
+* Organização de código em camadas
+* Aplicação de conceitos de POO em C#
+
+---
+
+# Autor
+
+Desenvolvido por **Pablo**
