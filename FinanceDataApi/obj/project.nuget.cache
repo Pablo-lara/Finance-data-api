@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "X/n3lCd9Yik=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Pablo\\Desktop\\projetos c#\\api publica\\FinanceDataApi\\FinanceDataApi\\FinanceDataApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.1\\microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
+    "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.openapi\\2.4.1\\microsoft.openapi.2.4.1.nupkg.sha512",
+    "C:\\Users\\Pablo\\.nuget\\packages\\swashbuckle.aspnetcore\\10.1.5\\swashbuckle.aspnetcore.10.1.5.nupkg.sha512",
+    "C:\\Users\\Pablo\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.1.5\\swashbuckle.aspnetcore.swagger.10.1.5.nupkg.sha512",
+    "C:\\Users\\Pablo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.1.5\\swashbuckle.aspnetcore.swaggergen.10.1.5.nupkg.sha512",
+    "C:\\Users\\Pablo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.1.5\\swashbuckle.aspnetcore.swaggerui.10.1.5.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Ocorreu um erro ao obter os dados de vulnerabilidade do pacote: Não é possível carregar o índice de serviço para a origem https://api.nuget.org/v3/index.json.",
+      "projectPath": "C:\\Users\\Pablo\\Desktop\\projetos c#\\api publica\\FinanceDataApi\\FinanceDataApi\\FinanceDataApi.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Pablo\\Desktop\\projetos c#\\api publica\\FinanceDataApi\\FinanceDataApi\\FinanceDataApi.csproj",
+      "targetGraphs": []
+    }
+  ]
+}
